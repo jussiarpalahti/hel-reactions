@@ -1,0 +1,22 @@
+@import 'hel-bootstrap-3/src/sass/helsinki-variables';
+@import 'hel-bootstrap-3/src/sass/application-variables';
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+//glyphicons-halflings-regular.eot
+@import 'hel-bootstrap-3/src/sass/theme-bootstrap-variables';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'hel-bootstrap-3/src/sass/theme-custom-styles';
+
+.feedback-floating {
+  transform-origin: top right;
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 1em;
+  right: -3px;
+  z-index: 8000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

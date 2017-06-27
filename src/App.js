@@ -13,6 +13,13 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+      <div className="feedback-floating">
+          <a href="" className="feedback-trigger--float" data-toggle="modal" data-target="#feedback">
+              <div className="btn btn-primary">
+                  Anna palautetta
+              </div>
+          </a>
+      </div>
       </div>
     );
   }
